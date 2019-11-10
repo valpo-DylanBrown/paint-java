@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.control.Tooltip?>
+
+<BorderPane fx:id="borderPane" styleClass="root" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paint_overhaul.other.FXMLPaintController" >
+    <top>
+        <VBox>
+            <children>
+                <HBox alignment="CENTER" spacing="20.0">
+                    <children>
+                        <MenuBar id="menuBar" fx:id="menuBar" focusTraversable="true" prefHeight="27.0" prefWidth="149.0">
+                            <menus>
+                                <Menu text="_File" mnemonicParsing="true">
+                                    <items>
+                                        
+                                        <MenuItem onAction="#handleOpen" text="Open" mnemonicParsing="false" accelerator="Shortcut+O"/>
+                                        <MenuItem onAction="#handleSave" text="Save" mnemonicParsing="false" accelerator="Shortcut+S"/>
+                                        <MenuItem fx:id="saveAsMenu" onAction="#handleSaveAs" text="Save As" mnemonicParsing="false" accelerator="Shortcut+Shift+S"/>
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleExit" text="Exit" mnemonicParsing="false" accelerator="Alt+F4" />
+                                    </items>
+                                </Menu>
+                                <Menu text="_Edit" mnemonicParsing="true">
+                                    <items>
+                                        
+                                        
+                                        <MenuItem onAction="#handleUndoMenuItem" text="Undo" mnemonicParsing="false" accelerator="Shortcut+z"/>
+                                        <MenuItem onAction="#handleRedoMenuItem" text="Redo" mnemonicParsing="false" accelerator="Shortcut+y" />
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleCopyButton" text="Copy" mnemonicParsing="false" accelerator="Shortcut+c"/>
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleResizeCanvas" text="Resize Canvas" />
+                                    </items>
+                                </Menu>
+                                <Menu text="_View" mnemonicParsing="true">
+                                    <items>
+                                        <MenuItem onAction="#handleAutoSaveLabel" text="View Autosave Timer"/>
+                                        <MenuItem onAction="#handleRotate" text = "Rotate Canvas" />
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleZoomInMenu" text="Zoom In" mnemonicParsing="false" accelerator="Shortcut+="/>
+                                        <MenuItem onAction="#handleZoomOutMenu" text="Zoom Out" mnemonicParsing="false" accelerator="Shortcut+-" />
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleZoom25Menu" text="Zoom 25%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom50Menu" text="Zoom 50%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom75Menu" text="Zoom 75%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom100Menu" text="Zoom 100%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom200Menu" text="Zoom 200%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom250Menu" text="Zoom 250%" mnemonicParsing="false" />
+                                        <MenuItem onAction="#handleZoom300Menu" text="Zoom 300%" mnemonicParsing="false" />
+                                    </items>
+                                </Menu>
+                                <Menu text="_Help" mnemonicParsing="true">
+                                    <items>
+                                        <MenuItem disable="true" text="Search" />
+                                        <MenuItem text="Help Contents" onAction="#handleHelpContents"/>
+                                        <SeparatorMenuItem />
+                                        <MenuItem onAction="#handleAbout" text="About" mnemonicParsing="false" accelerator="Alt+A"/>
+                                        <MenuItem onAction="#handleReleaseNotes" text="Release Notes" mnemonicParsing="false" accelerator="Alt+R" />
+                                        <MenuItem onAction="#handleLog" text="Log File"/>
+                                    </items>
+                                </Menu>
+                            </menus> 
+                        </MenuBar>
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Button id="closeButton" fx:id="closeButton" mnemonicParsing="false" onAction="#handleCloseButton" prefWidth="27.0" text="X" />
+                    </children>
+                </HBox>
+                <ToolBar fx:id="toolBar" >
+                    <Button id="undoButton" fx:id="undoButton" mnemonicParsing="false" prefWidth="55.0" prefHeight="35.0" onAction="#handleUndoButton">
+                        <tooltip>
+                            <Tooltip text="Undo"/>
+                        </tooltip>
+                    </Button>
+                    <Button id="redoButton" fx:id="redoButton" mnemonicParsing="false" prefWidth="55.0" prefHeight="35.0" onAction="#handleRedoButton">
+                        <tooltip>
+                            <Tooltip text="Redo"/>
+                        </tooltip>
+                    </Button>
+                    <Button fx:id="zoomInButton" prefWidth="55.0"  prefHeight="35.0" onAction="#handleZoomInButton" disable="true">
+                        <tooltip>
+                            <Tooltip text="Zoom In"/>
+                        </tooltip>
+                    </Button>
+                    <Label fx:id="zoomLabel" text="100%" alignment="CENTER" prefWidth="45.0"/>
+                    <Button fx:id="zoomOutButton" prefWidth="55.0"  prefHeight="35.0" onAction="#handleZoomOutButton" disable = "true">
+                        <tooltip>
+                            <Tooltip text="Zoom Out"/>
+                        </tooltip>
+                    </Button>
+                    <Pane HBox.hgrow="ALWAYS" maxWidth="400"/>
+                    <VBox alignment="CENTER" spacing="3.0">
+                        <children>
+                            <TextField fx:id="userText" promptText="Add your message here..."/>
+                            <HBox spacing="3.0">
+                                <children>
+                                    <ComboBox fx:id="fontChooser" promptText="Font" onAction="#handleFontChooser"/>
+                                    <Spinner fx:id="fontSizeSpinner" prefWidth="70.0" editable="true"/>
+                                </children>
+                            </HBox>
+                        </children>
+                    </VBox>
+                    <Pane HBox.hgrow="ALWAYS" maxWidth="400"/>
+                    <VBox alignment="CENTER">
+                        <Label text="Width" alignment="CENTER" />
+                        <HBox alignment="CENTER">
+                            <Spinner fx:id="widthSpinner" prefWidth="70.0" editable="true"/>
+                        </HBox>
+                    </VBox>
+                    <VBox alignment="TOP_CENTER" spacing="4.0">
+                        <Label text="Stroke" alignment="CENTER" />
+                        <ColorPicker id="strokeC1olorPicker" fx:id="strokeColorPicker" onAction="#handleStrokeColorPicker">
+                            <tooltip>
+                                <Tooltip text="Stroke Color"/>
+                            </tooltip>
+                            <value>
+                                <Color blue="0.0" green="0.0" red="0.0" />
+                            </value>
+                        </ColorPicker>
+                    </VBox>
+                    <Button id="swapColors" fx:id="swapColors" mnemonicParsing="false" onAction="#handleSwapColorButton" prefWidth="35.0">
+                        <tooltip>
+                                <Tooltip text="Swap Colors"/>
+                        </tooltip>
+                    </Button>
+                    <VBox alignment="TOP_CENTER" spacing="4.0">
+                        <Label text="Fill" alignment="CENTER" />
+                        <ColorPicker id="fillColorPicker" fx:id="fillColorPicker" onAction="#handleFillColorPicker">
+                            <tooltip>
+                                <Tooltip text="FillColor"/>
+                            </tooltip>
+                            <value>
+                                <Color blue="0.0" green="0.0" red="0.0" />
+                            </value>
+                        </ColorPicker>
+                    </VBox>
+                    <Pane HBox.hgrow="ALWAYS" />
+                </ToolBar>
+            </children>
+        </VBox>
+    </top>
+    <left>
+        <ScrollPane id="toolbarScollPane" fx:id="toolbarScollPane">
+            <content>
+               <VBox id="toolBox" fx:id="toolBox" alignment="CENTER"  spacing="10.0" prefWidth="120.0">
+                    
+                   <fx:define>
+                        <ToggleGroup fx:id="toolGroup" />
+                    </fx:define>
+                    
+                    <Pane VBox.vgrow="ALWAYS"/>
+                    
+                    <ToggleButton fx:id="drawButton" prefWidth="55.0" prefHeight="32.0" onAction="#handleDrawToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Pencil"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="lineButton" prefWidth="55.0" prefHeight="32.0" onAction="#handleLineToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Line"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="fillButton" onAction="#handleFillToggle" prefWidth="55.0" prefHeight="32.0" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Fill"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="eraserButton" prefWidth="55.0" prefHeight="32.0" onAction="#handleEraserToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Erase"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="rectButton" prefWidth="55.0" prefHeight="32.0" onAction="#handleRectToggle" toggleGroup="$toolGroup" >
+                        <tooltip>
+                            <Tooltip text="Rectangle"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="squareButton" prefWidth="55.0" prefHeight="32.0" onAction="#handleSquareToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Square"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="ovalButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleOvalToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Ellipse"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="circleButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleCircleToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Circle"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="triangleButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleTriangleToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Triangle"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <HBox alignment="CENTER" spacing="1.5">
+                        <ToggleButton fx:id="polygonButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handlePolygonButton" toggleGroup="$toolGroup">
+                            <tooltip>
+                                <Tooltip text="N-Sided Polygon"/>
+                            </tooltip>
+                        </ToggleButton>
+                        <Spinner fx:id="polygonSpinner" prefWidth="60.0" editable="true"/>
+                    </HBox>
+                    <ToggleButton fx:id="starButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleStarButton" toggleGroup="$toolGroup">
+                            <tooltip>
+                                <Tooltip text="Star"/>
+                            </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="textButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleTextToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Text"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="eyedropperButton" prefWidth="55.0"  prefHeight="32.0" onAction="#handleEDToggle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Eyedropper"/>
+                        </tooltip>
+                    </ToggleButton>
+                    <ToggleButton fx:id="selectionRectangle" prefWidth="55.0"  prefHeight="32.0" onAction="#handleSelectionRectangle" toggleGroup="$toolGroup">
+                        <tooltip>
+                            <Tooltip text="Selection Rectangle"/>
+                        </tooltip>
+                    </ToggleButton>
+                </VBox> 
+            </content>
+        </ScrollPane>
+    </left>
+    <center>
+        <ScrollPane id="canvasScrollPane" fx:id="canvasScrollPane" >
+            <content> 
+                <Group fx:id="scrollPaneGroup">
+                        <Pane fx:id="staticPane" id="staticPane">
+                            <children>
+                                <Group fx:id="canvasGroup">
+                                    <children>
+                                        <Canvas id="canvas" fx:id="canvas">
+                                        </Canvas>
+                                    </children>
+                                </Group>
+                            </children>
+                        </Pane> 
+                </Group>    
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <HBox>
+            <Label id="toolStatus" alignment="center" fx:id="toolStatus" text="Tool Selected: NONE"/>
+            <Pane HBox.hgrow="ALWAYS" />
+            <Label id="autoSaveLabel" alignment="center" fx:id="autoSaveLabel"/> 
+        </HBox>
+    </bottom>
+    <stylesheets>
+        <URL value="@paint.css" />
+    </stylesheets> 
+</BorderPane>

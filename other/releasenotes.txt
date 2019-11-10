@@ -1,0 +1,158 @@
+Pain(t) Release Notes
+Author: Dylan Brown
+This program recreates the popular Microsoft Paint application using JavaFX.
+
+Last Updated: 10/18/2019
+
+------------------------------------------------------------------------------------------
+
+Version 6.0									10/18/2019
+
+New Features:
+	- Users can now copy their selection
+	- Selection rectangle cleaned up
+	- Users can now rotate the canvas to draw easier
+	- Users can now use the fill tool to fill the canvas with a color of their choice
+	- Status bar for current tool now shown in bottom left
+Known/Possible Issues:
+	- MacBook image blur (this does not affect windows users)
+	- Selection leaves behind dashed rectangle
+Upcoming:
+	- Clean, clean, clean
+	- Javadoc all functions
+	- Verify that no features are broken
+ 	- Verify log rule
+------------------------------------------------------------------------------------------
+
+Version 5.0									10/06/2019
+
+New Features:
+	- Unit testing added
+	- File open/save now logged to file
+	- Users can view log file in application from Help->Log File
+	- A warning now appears when switching file types
+	- Autosave added
+	- Users can toggle the visibility of the autosave timer
+		- This does not affect autosave functionality
+	- More Javadoc added
+Known/Possible Issues:
+	- MacBook image blur (this does not affect windows users)
+Upcoming:
+	- Copy/paste selection
+	- Status bar (tooltips were added in verson 3.0)
+	- New canvas
+	- Any other new features
+
+------------------------------------------------------------------------------------------
+
+Version 4.0									09/28/2019
+
+New Features:
+	- Code overhauled
+			- Instead of being one large file, the program now utilizes
+				multiple objects. This upload is significantly larger
+				then usual.
+	- Text now supported
+	- Triangle now supported
+	- Star now supported
+	- N-Sided polygon now supported
+	- Erasing now supported
+	- Application shows shape will drawing
+	- Select and move now supported
+	- Release notes in-app support added
+	- Help contents in-app support added
+	- Javadoc updated
+Known/Possible Issues:
+	- MacBook image blur (this does not affect windows users)
+Upcoming:
+	- Unit testing
+	- Autosave
+	- Log tools
+	- Log app usage
+
+------------------------------------------------------------------------------------------
+
+Version 3.0									09/20/2019
+
+New Features:
+	- Pencil tool added
+	- Rectangle tool added
+	- Square tool added
+	- Circle tool added
+	- Ellipse tool added
+	- Eyedropper tool added
+	- Undo now supported
+	- Redo now supported
+	- Zoom in and zoom out now supported
+	- Zoom to [25, 50, 75, 100, 200, 250, 300]% now supported
+	- Fill color added
+	- Ability to swap fill and stroke supported
+	- Canvas can now be resized (pixel, pixel)
+	- Added icons for new buttons
+	- Added tooltips for all tools
+	- Added keyboard shortcuts
+	- Added support for BMP file type
+Known/Possible Issues:
+	- Image quality worsens as images are redone
+Upcoming:
+	- Clean code and split into different files
+	- Zoom fit to screen
+	- Next requirements (See blackboard)
+
+------------------------------------------------------------------------------------------
+
+Version 2.0									09/13/2019
+
+New Features:
+	- Lines can now be created on the canvas
+	- Added about section under the File->Help menu
+	- Added Release Notes section to open release notes through the application
+	- Added save option
+	- Documented all functions using Javadoc
+	- Canvas now resizes to the image
+	- Alerts users before closing application to save the file
+	- Added scroll bars to canvas
+	- Added scroll bars to tool window
+	- Restricted users from sizing the window small enough to hide menu items
+	- Added color picker that influences the line
+	- Added line width slider that influences the line
+	- Added buttons to implement other functionalities in the future
+	- Opened application to maximized
+            - Un-maximized default set to 1024x760.
+	- Cleaned up GUI
+Known/Possible Issues:
+	- Alert before exiting does not currently check if the file needs to be saved
+		- Will be exploring using a bool to keep track of saved items.
+	- No other known issues.
+Upcoming:
+	- Circle, rectangle, zoom, erase functions
+	- Undo/Redo functions
+	- Layers for the canvas
+	- Creating custom canvas sizes
+	- Check when file has been modified and needs to save
+	- Add functionality for more image types
+		- Take away PDF
+
+------------------------------------------------------------------------------------------
+
+Version 1.0									09/03/2019
+New Features:
+	- Created MenuBar
+		- Create File Option
+			- Added Open, save, save as, and exit options
+		- Created Help Option
+			- Added About and Release Notes Option
+				- These have not been finished yet, only there for aesthetically purpose
+	- Created Close Button
+	- Added support for opening image files (jpg,png,tiff)
+	- Added support for saving images
+	- Places images into canvas
+Known/Possible Issues:
+	- Snapshot extension hardcoded as PNG
+	- Using SwingFXUtils to save files
+Upcoming:
+	- Create tools and toolbar
+	- Add support for tools
+		- Line, rectangle, circle, etc
+	- Draw on canvas
+	-UNDO/REDO

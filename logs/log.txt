@@ -1,0 +1,284 @@
+Untitled.png Opened at: 19:47:56
+NONE: 0 seconds
+PENCIL: 13 seconds
+NONE: 0 seconds
+RECTANGLE: 10 seconds
+testin.jpg Saved at: 19:49:20
+000.jpeg Opened at: 11:53:16
+NONE: 1 seconds
+flowchart.png Opened at: 12:09:30
+000.jpeg Opened at: 12:09:36
+NONE: 0 seconds
+000.jpeg Opened at: 12:11:24
+NONE: 0 seconds
+000.jpeg Opened at: 12:13:44
+NONE: 1 seconds
+000.jpeg Opened at: 22:47:58
+NONE: 1 seconds
+PENCIL: 1 seconds
+LINE: 4 seconds
+ERASER: 0 seconds
+NONE: 2 seconds
+RECTANGLE: 0 seconds
+NONE: 2 seconds
+LINE: 0 seconds
+NONE: 2 seconds
+SQUARE: 1 seconds
+NONE: 1 seconds
+ELLIPSE: 0 seconds
+NONE: 1 seconds
+CIRCLE: 0 seconds
+NONE: 0 seconds
+flowchart.png Opened at: 22:52:57
+NONE: 0 seconds
+PENCIL: 1 seconds
+LINE: 2 seconds
+ERASER: 1 seconds
+RECTANGLE: 0 seconds
+SQUARE: 1 seconds
+ELLIPSE: 0 seconds
+CIRCLE: 1 seconds
+TRIANGLE: 1 seconds
+NONE: 0 seconds
+POLYGON: 1 seconds
+STAR: 1 seconds
+TEXT: 0 seconds
+EYEDROPPER: 1 seconds
+SELECT: 1 seconds
+PENCIL: 1 seconds
+NONE: 3 seconds
+PENCIL: 1 seconds
+ERASER: 0 seconds
+SQUARE: 0 seconds
+ELLIPSE: 1 seconds
+TRIANGLE: 1 seconds
+STAR: 0 seconds
+TEXT: 1 seconds
+NONE: 4 seconds
+SELECT: 1 seconds
+EYEDROPPER: 0 seconds
+TEXT: 1 seconds
+Untitled.png Opened at: 16:32:05
+POLYGON: 1 seconds
+Untitled.png Opened at: 16:43:53
+NONE: 2 seconds
+FILL: 2 seconds
+PENCIL: 7 seconds
+testingloss.png Opened at: 16:51:28
+NONE: 2 seconds
+Untitled.png Opened at: 16:52:02
+NONE: 6 seconds
+Untitled.png Opened at: 16:53:01
+NONE: 2 seconds
+Untitled.png Opened at: 16:53:27
+NONE: 2 seconds
+logtest.png Opened at: 17:01:25
+NONE: 4 seconds
+Untitled.png Opened at: 17:06:41
+NONE: 1 seconds
+Untitled.png Opened at: 17:10:20
+NONE: 1 seconds
+Untitled.png Opened at: 17:12:53
+NONE: 1 seconds
+Untitled.png Opened at: 17:15:27
+NONE: 1 seconds
+Untitled.png Opened at: 17:15:57
+NONE: 1 seconds
+Untitled.png Opened at: 17:18:09
+NONE: 1 seconds
+Untitled.png Opened at: 17:18:31
+NONE: 1 seconds
+Untitled.png Opened at: 17:19:04
+NONE: 1 seconds
+Untitled.png Opened at: 17:19:27
+NONE: 1 seconds
+Untitled.png Opened at: 17:23:33
+NONE: 1 seconds
+Untitled.png Opened at: 17:24:48
+NONE: 1 seconds
+Untitled.png Opened at: 17:25:26
+NONE: 1 seconds
+Untitled.png Opened at: 17:25:50
+NONE: 1 seconds
+Untitled.png Opened at: 17:27:31
+NONE: 0 seconds
+Untitled.png Opened at: 17:27:48
+NONE: 1 seconds
+Untitled.png Opened at: 17:28:38
+NONE: 1 seconds
+Untitled.png Opened at: 17:29:31
+NONE: 1 seconds
+Untitled.png Opened at: 17:29:53
+NONE: 1 seconds
+Untitled.png Opened at: 17:30:22
+NONE: 1 seconds
+Untitled.png Opened at: 17:30:46
+NONE: 1 seconds
+Untitled.png Opened at: 17:31:11
+NONE: 1 seconds
+Untitled.png Opened at: 17:32:46
+NONE: 0 seconds
+Untitled.png Opened at: 17:34:13
+NONE: 1 seconds
+Untitled.png Opened at: 17:34:40
+NONE: 1 seconds
+Untitled.png Opened at: 17:35:06
+NONE: 1 seconds
+Untitled.png Opened at: 17:35:35
+NONE: 1 seconds
+Untitled.png Opened at: 17:36:20
+NONE: 0 seconds
+000.jpeg Opened at: 11:37:49
+NONE: 11 seconds
+000.jpeg Opened at: 11:39:15
+NONE: 0 seconds
+SQUARE: 2 seconds
+RECTANGLE: 2 seconds
+000.jpeg Opened at: 11:52:56
+NONE: 1 seconds
+000.jpeg Opened at: 11:54:20
+NONE: 0 seconds
+000.jpeg Opened at: 11:54:53
+NONE: 1 seconds
+000.jpeg Opened at: 11:55:28
+NONE: 1 seconds
+000.jpeg Opened at: 11:56:15
+NONE: 0 seconds
+000.jpeg Opened at: 11:56:47
+NONE: 1 seconds
+000.jpeg Opened at: 11:57:23
+NONE: 1 seconds
+999.jpeg Opened at: 12:02:40
+NONE: 0 seconds
+000.jpeg Opened at: 12:03:53
+NONE: 0 seconds
+budnike.jpeg Opened at: 13:37:57
+NONE: 1 seconds
+checkme.jpeg Opened at: 13:38:09
+SELECT: 0 seconds
+NONE: 1 seconds
+checkme.jpeg Opened at: 13:38:51
+NONE: 0 seconds
+PENCIL: 2 seconds
+LINE: 1 seconds
+FILL: 3 seconds
+RECTANGLE: 2 seconds
+checkme.jpeg Opened at: 13:43:07
+NONE: 0 seconds
+SELECT: 4 seconds
+LINE: 1 seconds
+SELECT: 4 seconds
+FILL: 6 seconds
+checkme.jpeg Opened at: 13:45:09
+NONE: 1 seconds
+PENCIL: 7 seconds
+SQUARE: 0 seconds
+RECTANGLE: 3 seconds
+FILL: 2 seconds
+LINE: 3 seconds
+RECTANGLE: 3 seconds
+FILL: 2 seconds
+PENCIL: 4 seconds
+FILL: 3 seconds
+SELECT: 4 seconds
+checkme.jpeg Opened at: 13:46:26
+NONE: 1 seconds
+SELECT: 3 seconds
+SQUARE: 3 seconds
+RECTANGLE: 1 seconds
+FILL: 2 seconds
+SELECT: 3 seconds
+FILL: 3 seconds
+TRIANGLE: 5 seconds
+SELECT: 5 seconds
+FILL: 2 seconds
+SELECT: 2 seconds
+NONE: 1 seconds
+checkme.jpeg Opened at: 13:48:26
+NONE: 0 seconds
+RECTANGLE: 2 seconds
+FILL: 5 seconds
+SELECT: 342 seconds
+FILL: 2 seconds
+checkme.jpeg Opened at: 14:07:22
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:10:26
+NONE: 1 seconds
+PENCIL: 1 seconds
+checkme.jpeg Opened at: 14:11:36
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:15:53
+NONE: 0 seconds
+checkme.jpeg Opened at: 14:17:18
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:19:14
+NONE: 2 seconds
+checkme.jpeg Opened at: 14:19:56
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:21:30
+NONE: 0 seconds
+PENCIL: 2 seconds
+checkme.jpeg Opened at: 14:24:43
+NONE: 0 seconds
+checkme.jpeg Opened at: 14:26:22
+NONE: 7 seconds
+checkme.jpeg Opened at: 14:29:18
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:32:22
+NONE: 1 seconds
+checkme.jpeg Opened at: 14:34:15
+NONE: 0 seconds
+checkmepls.jpeg Opened at: 14:40:19
+NONE: 0 seconds
+checkme.jpeg Opened at: 14:42:11
+NONE: 2 seconds
+RECTANGLE: 10 seconds
+PENCIL: 3 seconds
+checkme.jpeg Opened at: 14:43:04
+NONE: 1 seconds
+PENCIL: 4 seconds
+RECTANGLE: 7 seconds
+EYEDROPPER: 3 seconds
+checkme.jpeg Opened at: 14:49:49
+NONE: 11 seconds
+rotatetest.jpeg Saved at: 14:50:10
+rotatetest.jpeg Saved at: 14:50:32
+rotatetest.jpeg Opened at: 12:10:43
+NONE: 3 seconds
+SELECT: 6 seconds
+id.jpg Opened at: 17:25:35
+NONE: 1 seconds
+LINE: 2 seconds
+PENCIL: 2 seconds
+RECTANGLE: 1 seconds
+SQUARE: 2 seconds
+ELLIPSE: 3 seconds
+CIRCLE: 0 seconds
+TRIANGLE: 2 seconds
+POLYGON: 1 seconds
+STAR: 2 seconds
+EYEDROPPER: 5 seconds
+sm_5b0db20a1016b.png Opened at: 18:10:53
+NONE: 1 seconds
+test_flower.jpg Opened at: 19:21:36
+NONE: 1 seconds
+PENCIL: 2 seconds
+LINE: 3 seconds
+RECTANGLE: 10 seconds
+SQUARE: 5 seconds
+ELLIPSE: 11 seconds
+CIRCLE: 8 seconds
+TRIANGLE: 11 seconds
+POLYGON: 14 seconds
+STAR: 5 seconds
+TEXT: 41 seconds
+EYEDROPPER: 62 seconds
+SELECT: 57 seconds
+FILL: 3 seconds
+EYEDROPPER: 6 seconds
+FILL: 7 seconds
+EYEDROPPER: 6 seconds
+ERASER: 0 seconds
+FILL: 62 seconds
+test_flower.jpg Opened at: 19:29:18
+NONE: 6 seconds

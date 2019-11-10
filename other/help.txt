@@ -1,0 +1,101 @@
+How to use PAIN(t):                 Last Updated: 09/25/19
+
+Written by Dylan Brown
+
+
+-------------------------------------------------------------------------------
+                              DRAWING TOOLS
+-------------------------------------------------------------------------------
+
+Pencil Tool:
+        This tool allows you to draw a freehand line onto the canvas. It takes
+        the line width and stroke from the pickers located at the top of the
+        screen.
+
+Line Tool:
+        This tool allows you to draw a straight line onto the canvas. It takes
+        the line width and stroke from the pickers located at the top of the
+        screen.
+
+Fill Tool:
+        To be added.
+
+Rectangle Tool:
+        This tool allows you to draw a rectangle onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+Square Tool:
+        This tool allows you to draw a square onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+Oval Tool:
+        This tool allows you to draw an oval onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+Circle Tool:
+        This tool allows you to draw a circle onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+Triangle Tool:
+        This tool allows you to draw a triangle onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+N-Sided Polygon Tool:
+        This tool allows you to draw any n-sided polygon (n>=5 n<=100) onto the
+        canvas. It takes the line width, stroke, fill from the pickers located
+        at the top of screen.
+
+Star Tool:
+        This tool allows you to draw a star onto the canvas. It takes
+        the line width, stroke, fill from the pickers located at the top of the
+        screen.
+
+Text Tool:
+        This tool allows you to write a message onto the canvas. It takes
+        the font size and font family from the pickers located at the top of the
+        screen.
+
+Eyedropper Tool:
+        This tool allows you to get the color from any point on the canvas.
+        It puts the found color into the fill color picker.
+
+Selection Tool:
+        This tool allows you to draw a selection region around the place
+        you'd like to move. You then can click the popped out region,
+        move it to your desired location, and let go to set it back in place.
+
+-------------------------------------------------------------------------------
+                                MENU TOOLS
+-------------------------------------------------------------------------------
+Opening a new File:
+        File->Open. The program only accepts .png, .jpg., .bmp, and .tiff files.
+        Please only use these file types. This will draw the image onto the
+        canvas.
+
+Saving a file:
+        File->Save or File->SaveAs. The program will allow you to save in the
+        following formats:
+                          .png, .jpg., .bmp, and .tiff .
+        Save will save the file to the last saved location. If it is the
+        first time saving, the app will prompt you with a location. Save as
+        will always prompt you with a save location.
+
+Closing the application:
+        The application can be closed from File->Exit or the close button
+        located in the top right corner. Please refrain from using the system
+        close button.
+
+Undo:
+        Click the undo button or Edit->Undo to undo the last action.
+
+Redo:
+        Click the redo button or Edit->Redo to undo the last action.
+
+Zoom:
+        Use the zoom buttons or View->Zoom to zoom in, out, or to set percents
+        of the canvas.
